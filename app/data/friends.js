@@ -1,7 +1,7 @@
 var arrayOfFriends = [
     {
     friendName: "Rachel",
-    friendImage: "https://giphy.com/gifs/friends-flirting-flirt-SWPwSP6poA1nG",
+    friendImage: "https://media.giphy.com/media/3lV7Hbo9iJRS0/giphy.gif",
     scores: [
         3,
         2,
@@ -18,7 +18,7 @@ var arrayOfFriends = [
 
 {
     friendName: "Ross",
-    friendImage: "https://giphy.com/gifs/Friends-season-5-episode-7-friends-tv-iHskdY9SMLFZuQ2u5c",
+    friendImage: "https://media.giphy.com/media/iHskdY9SMLFZuQ2u5c/giphy.gif",
     scores: [
         3,
         2,
@@ -35,7 +35,7 @@ var arrayOfFriends = [
 
 {
     friendName: "Phoebe",
-    friendImage: "https://giphy.com/gifs/dance-dancing-friends-JGH2CwqB4oqGc",
+    friendImage: "https://media.giphy.com/media/JGH2CwqB4oqGc/giphy.gif",
     scores: [
         1,
         2,
@@ -48,9 +48,10 @@ var arrayOfFriends = [
         1,
         2
     ]
-}, {
+}, 
+{
 friendName: "Monica",
-friendImage: "https://giphy.com/gifs/dance-dancing-friends-JGH2CwqB4oqGc",
+friendImage: "https://media.giphy.com/media/SGkufeMafyuBhIw796/giphy.gif",
 scores: [
     3,
     4,
@@ -63,9 +64,10 @@ scores: [
     6,
     1
 ]
-}, {
+}, 
+{
 friendName: "Chandler",
-friendImage: "https://giphy.com/gifs/ross-gellar-ZQjUvxPYUQ21q",
+friendImage: "https://media.giphy.com/media/AqfHCX4GxXg1a/giphy.gif",
 scores: [
     4,
     3,
@@ -78,9 +80,10 @@ scores: [
     2,
     3
 ]
-}, {
+}, 
+{
 friendName: "Joey",
-friendImage: "https://giphy.com/gifs/pyEDsTDy2aIR5SXkBD",
+friendImage: "https://media.giphy.com/media/3og0IQCfsZXScpvKhi/giphy.gif",
 scores: [
     3,
     1,
@@ -91,7 +94,7 @@ scores: [
     2,
     2,
     1,
-    3
+    4
 ]
 }
 ];

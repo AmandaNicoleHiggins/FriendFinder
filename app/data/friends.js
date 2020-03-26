@@ -22,14 +22,14 @@ var arrayOfFriends = [
     scores: [
         3,
         2,
-        2,
-        3,
-        2,
         1,
-        2,
+        3,
+        4,
+        1,
+        5,
         1,
         4,
-        5
+        1
     ]
 },
 
@@ -37,61 +37,61 @@ var arrayOfFriends = [
     friendName: "Phoebe",
     friendImage: "https://giphy.com/gifs/dance-dancing-friends-JGH2CwqB4oqGc",
     scores: [
-        3,
-        2,
-        2,
-        3,
-        2,
         1,
         2,
-        1,
         4,
-        5
+        3,
+        4,
+        4,
+        2,
+        1,
+        1,
+        2
     ]
 }, {
 friendName: "Monica",
 friendImage: "https://giphy.com/gifs/dance-dancing-friends-JGH2CwqB4oqGc",
 scores: [
     3,
-    2,
-    2,
-    3,
-    2,
-    1,
-    2,
-    1,
     4,
-    5
+    5,
+    4,
+    2,
+    2,
+    1,
+    2,
+    6,
+    1
 ]
 }, {
 friendName: "Chandler",
 friendImage: "https://giphy.com/gifs/ross-gellar-ZQjUvxPYUQ21q",
 scores: [
-    3,
-    2,
-    2,
-    3,
-    2,
-    1,
-    2,
-    1,
     4,
-    5
+    3,
+    4,
+    4,
+    2,
+    3,
+    1,
+    1,
+    2,
+    3
 ]
 }, {
 friendName: "Joey",
 friendImage: "https://giphy.com/gifs/pyEDsTDy2aIR5SXkBD",
 scores: [
     3,
-    2,
-    2,
+    1,
+    1,
     3,
-    2,
-    1,
-    2,
-    1,
+    3,
     4,
-    5
+    2,
+    2,
+    1,
+    3
 ]
 }
 ];

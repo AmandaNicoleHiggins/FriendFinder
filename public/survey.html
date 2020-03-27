@@ -188,7 +188,7 @@
 
 <script type="text/javascript">
 
-    // when the submit button is pressed....
+    // submit
 
     $(".submit").on("click", function (event) {
         event.preventDefault();
@@ -214,17 +214,15 @@
         console.log(newFriend);
 
 
-        // this is where more magical code comes in...
         $.post("/api/friends", newFriend)
             .then(function (data) {
 
                 if (data) {
-                    // alert("Yay! You're now a part of Friend Finder. Here is your current friend!");
+                    // alert("Here is your current friend");
                     console.log(data);
                     console.log(data.bestFriendName);
                     $('#bestFriendName').append(data.bestFriendName);
                     $("#bestFriendPic").attr("src", data.bestFriendPic);
-                    // Pop open the modal dialog
                     $('#bffModal').modal('show');
                 }
                 runFriendQuery();
@@ -232,7 +230,6 @@
             });
 
         function runFriendQuery() {
-            // This AJAX function uses the URL of our API to GET the data associated with it
             $.ajax({ url: "/api/friends", method: "GET" })
                 .then(function (newFriend) {
                     console.log(newFriend);

@@ -99,6 +99,6 @@ scores: [
 }
 ];
 
-// export the array to amke it accessible to other files using require
+// export the array 
 module.exports = arrayOfFriends;
 console.log(arrayOfFriends);
